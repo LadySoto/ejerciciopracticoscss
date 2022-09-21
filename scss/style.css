@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(184, 184, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  padding: 2rem;
+}
+header h1 {
+  background-color: rgb(207, 214, 221);
+  width: 100vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main h2 {
+  background-color: rgb(207, 214, 221);
+  padding-left: 2rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+main ul {
+  margin: 2rem 3rem;
+}
+main ul li span {
+  font-weight: 700;
+  font-style: italic;
+}
+main div {
+  margin: 2rem 3rem;
+}
+main div p span {
+  font-weight: 700;
+  font-style: italic;
+}
+main div .experiencia {
+  margin-left: 5rem;
+}
+
+footer {
+  background-color: rgb(89, 89, 197);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
